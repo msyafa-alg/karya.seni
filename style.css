@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Navbar */
+header {
+    background-color: #333;
+    padding: 20px 20px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: op;
+}
+
+.navbar a:hover {
+        display: block;
+        text-decoration: none;
+        text-transform: 
+        uppercase;
+        letter-spacing: 4px;
+        font-family: Futura, Trebuchet MS, Arial, sans-serif;
+        font-size: 0.7em;
+        color: #FFE4FA;
+        text-align: center;
+        padding: 14px 30px;
+        transition: .25s, box-shadow .15s;
+        border-radius: 90px;
+        &:hover {
+            color: #333;
+            background: #fff;
+            box-shadow: 0px 4px 0px 0px 
+        }    
+    }
+/* Judul */
+.judul {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+    color: #333;
+}
+
+
+/* galeri */
+.galeri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.galeri-foto {
+    width: 200px;    text-align: center;
+    padding: 20px;
+
+    border-radius: 20px;
+    box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    background-color: #fff;
+
+}
+
+.galeri-foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: tranform 0,3s ease;
+}
+
+.galeri-foto img:hover {
+    transform: scale(1.05);
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+/* galeri end */
+
+/* footer */
+footer {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 90px;
+}
+
+a {
+    text-decoration: none;
+}
